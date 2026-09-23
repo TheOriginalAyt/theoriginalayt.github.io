@@ -1,12 +1,12 @@
 {
   "profile": {
-    "name": "Bryce Alexander Molnar",
+    "name": "Bryce Molnar",
     "title": "Vice President, Data Management Senior & Cybersecurity Engineer",
-    "location": "Wilmington, DE (Open to Remote / Relocation)",
+    "location": "Las Vegas, Nevada",
     "summary": "A dedicated and results-driven manager with experience in design, development, implementation, security, and support of complex systems. Proven expertise in identifying and resolving vulnerabilities, reducing risk, and fulfilling key strategic objectives. Seeking a challenging position to contribute technical skills and strategic insight to achieve organizational goals and milestones, while improving financial and systemic sustainability.",
     "email": "bmolnar_csec@outlook.com",
     "phone": "(302) 569-5050",
-    "github": "github.com/brycemolnar",
+    "github": "github.com/theOriginalAyt",
     "linkedin": "linkedin.com/in/brycemolnar",
     "pdfUrl": "CSECResume0526.docx",
     "avatar": "<svg fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" style=\"width:42px;height:42px;color:var(--color-accent);\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"/></svg>"
@@ -120,35 +120,6 @@
       "details": "Cum Laude, Dean's List Graduate. Minor in General Business. President and Founder of Niagara University eSports."
     }
   ],
-  "projects": [
-    {
-      "title": "Enterprise Data Access Governor (DSPM)",
-      "description": "A simulated security and policy visualization panel designed to demonstrate Data Security Posture Management. Charts access requests, models risk scores, and manages permissions compliance workflows over massive simulated petabyte-scale cloud storage assets.",
-      "tags": ["Data Governance", "SQL", "Compliance Dashboard", "Azure Active Directory"],
-      "liveLink": "#",
-      "githubLink": "https://github.com/brycemolnar/dspm-governor"
-    },
-    {
-      "title": "Zero-Trust OT Network Architect",
-      "description": "An interactive, web-based visual diagram engine mapping industrial components across the Purdue Model framework. Allows system administrators to model firewalls, define secure boundaries (zones), and push configurations ensuring air-gapped system isolation.",
-      "tags": ["Operational Technology", "Zero Trust Architecture", "Purdue Model", "Systems Engineering"],
-      "liveLink": "#",
-      "githubLink": "https://github.com/brycemolnar/zero-trust-ot"
-    },
-    {
-      "title": "Collegiate Cyber Arena Platform",
-      "description": "A robust tournament staging portal featuring dynamic registration databases, stats tracking, and responsive eSports score displays. Built to celebrate eSports integration in collegiate environments, incorporating strict security protocols for user authentication.",
-      "tags": ["eSports Platform", "JavaScript", "User Authentication", "Web Security"],
-      "liveLink": "#",
-      "githubLink": "https://github.com/brycemolnar/collegiate-esports"
-    },
-    {
-      "title": "Industrial IoT Telemetry Dashboard",
-      "description": "A real-time smart factory monitoring platform designed to ingest hardware telemetry (temperatures, vibrations, power cycles). Visualizes metrics using dynamic charts and triggers automatic visual alarms when unauthorized hardware attachments are detected.",
-      "tags": ["Industrial IoT (IIoT)", "Realtime Telemetry", "WebSockets", "Data Science"],
-      "liveLink": "#",
-      "githubLink": "https://github.com/brycemolnar/iot-telemetry"
-    }
   ],
   "blogPosts": [
     {
