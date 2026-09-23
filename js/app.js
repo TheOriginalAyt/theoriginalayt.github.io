@@ -1,6 +1,6 @@
 /**
  * Antigravity Personal Portfolio Website Engine
- * Author: Bryce Alexander Molnar
+ * Author: Bryce 
  * Stack: Vanilla HTML5 / CSS3 / ES6 Javascript
  */
 
