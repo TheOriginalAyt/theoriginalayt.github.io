@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Bryce Alexander Molnar | VP Data Management & Cybersecurity Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Bryce Alexander Molnar, a Vice President of Data Management and Cybersecurity Engineer. Explore projects, read deep-dive blog posts, and test your skills on the retro interactive lockscreen challenge.">
+  <meta name="keywords" content="Bryce Alexander Molnar, Cybersecurity Engineer, Data Management, Portfolio, Systems Engineering, DSPM, Zero Trust, Purdue Model, GitHub Pages, Interactive Resume">
+  <meta name="author" content="Bryce Alexander Molnar">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Bryce Alexander Molnar | VP Data Management & Cybersecurity Engineer Portfolio">
+  <meta property="og:description" content="Explore projects, experience, and deep-dive technical articles. Solve the terminal bypass to access the full site.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://brycemolnar.github.io">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom Styling -->
+  <script type="module" crossorigin src="./assets/index-BKXX0OHL.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DJ6Qm1dV.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. SECURITY SCREEN / BOT PROOFING GATE
+       ========================================== -->
+  <div id="lockscreen" class="lockscreen-overlay">
+    <div class="crt-lines"></div>
+    <div class="crt-glow"></div>
+    
+    <div class="lockscreen-container">
+      <!-- Top Title Info Bar -->
+      <header class="lockscreen-header">
+        <div class="status-indicator">
+          <span class="pulse-dot"></span>
+          <span class="status-text">SECURITY GATEWAY ENCRYPTED</span>
+        </div>
+        <div class="system-time" id="lockscreen-time">08:39 AM</div>
+      </header>
+
+      <main class="lockscreen-content">
+        <!-- Interactive Terminal Panel (Mode 1) -->
+        <div id="terminal-panel" class="challenge-panel active-panel">
+          <div class="terminal-banner">
+            <pre class="ascii-art">
+ █████  ███    ██ ████████ ██  ██████  ██████   ██████   ██████  ███████ 
+██   ██ ████   ██    ██    ██ ██       ██   ██ ██    ██ ██    ██ ██      
+███████ ██ ██  ██    ██    ██ ██   ███ ██████  ██    ██ ██    ██ █████   
+██   ██ ██  ██ ██    ██    ██ ██    ██ ██   ██ ██    ██ ██    ██ ██      
+██   ██ ██   ████    ██    ██  ██████  ██   ██  ██████   ██████  ██      
+            </pre>
+            <p class="subtitle">BOT-PROOFING HUMAN VERIFICATION PROTOCOL v3.5</p>
+            <p class="instruction-text">Type <span class="highlight">help</span> to view active command diagnostics, or <span class="highlight">unlock</span> to bypass security.</p>
+          </div>
+          
+          <div class="terminal-body" id="terminal-body" role="log" aria-live="polite">
+            <div class="terminal-row system-msg">Initializing core handshake sequence... CONNECTED.</div>
+            <div class="terminal-row system-msg">Checking user agent parameters... SUCCESS (HUMAN CANDIDATE DETECTED).</div>
+            <div class="terminal-row system-msg">WARNING: Portfolio information currently locked to automatic crawlers.</div>
+          </div>
+          
+          <div class="terminal-input-line">
+            <span class="prompt">guest@antigravity:~$</span>
+            <input type="text" id="terminal-input" autocomplete="off" spellcheck="false" aria-label="Terminal Command Input" autofocus>
+            <span class="terminal-cursor"></span>
+          </div>
+        </div>
+
+        <!-- Interactive Visual Puzzle Grid Panel (Mode 2) -->
+        <div id="puzzle-panel" class="challenge-panel">
+          <div class="puzzle-instructions">
+            <h3>GRID SECURITY ALIGNMENT BYPASS</h3>
+            <p>Connect the glowing blue server nodes sequentially from <strong>Left to Right</strong> to complete the mainframe handshake circuits and bypass.</p>
+          </div>
+          
+          <div class="puzzle-wrapper">
+            <div class="puzzle-grid" id="puzzle-grid" role="button" aria-label="Node alignment connection puzzle">
+              <!-- Dynamically generated nodes will live here -->
+            </div>
+            
+            <div class="puzzle-circuit-status">
+              <span class="status-label">HANDSHAKE PATTERN:</span>
+              <span class="pattern-sequence" id="pattern-sequence">CONNECTING NODES...</span>
+            </div>
+          </div>
+          
+          <div class="puzzle-actions">
+            <button class="btn btn-secondary" id="btn-reset-puzzle" type="button">Reset Alignment Grid</button>
+          </div>
+        </div>
+      </main>
+
+      <!-- Bottom Option Selector / Decrypt Feedback -->
+      <footer class="lockscreen-footer">
+        <div class="bypass-selector">
+          <button class="btn btn-tab active" id="btn-mode-cli" type="button" aria-controls="terminal-panel" aria-selected="true">Terminal CLI Bypass</button>
+          <button class="btn btn-tab" id="btn-mode-puzzle" type="button" aria-controls="puzzle-panel" aria-selected="false">Visual Grid Bypass</button>
+        </div>
+        <div class="credits">ANTIGRAVITY SECURITY SEC-99</div>
+      </footer>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       2. MAIN DASHBOARD / UNLOCKED PORTFOLIO
+       ========================================== -->
+  <div id="portfolio-app" class="app-container hidden">
+    
+    <!-- Top Glowing Floating Bar -->
+    <header class="app-header">
+      <div class="header-brand">
+        <span class="logo-emoji" style="display: flex; align-items: center; justify-content: center;"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width:36px;height:36px;color:var(--color-accent);"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></span>
+        <div class="brand-text">
+          <h1 class="brand-name" id="brand-name">Bryce Alexander Molnar</h1>
+          <span class="brand-title" id="brand-title">Vice President, Data Management Senior & Cybersecurity Engineer</span>
+        </div>
+      </div>
+      
+      <!-- Top Navigation Tabs -->
+      <nav class="app-nav" aria-label="Main Portfolio Navigation">
+        <ul class="nav-list" role="tablist">
+          <li role="presentation">
+            <button class="nav-tab active" id="tab-resume" role="tab" aria-selected="true" aria-controls="panel-resume" tabindex="0" type="button">
+              Resume & Profile
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="nav-tab" id="tab-projects" role="tab" aria-selected="false" aria-controls="panel-projects" tabindex="-1" type="button">
+              Projects
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="nav-tab" id="tab-blog" role="tab" aria-selected="false" aria-controls="panel-blog" tabindex="-1" type="button">
+              Blog Posts
+            </button>
+          </li>
+          <li role="presentation">
+            <button class="nav-tab" id="tab-hobbies" role="tab" aria-selected="false" aria-controls="panel-hobbies" tabindex="-1" type="button">
+              Hobbies
+            </button>
+          </li>
+        </ul>
+      </nav>
+      
+      <!-- Utility Controls (Theme Toggle & Relock) -->
+      <div class="header-utilities">
+        <button class="btn-utility" id="btn-theme-toggle" title="Toggle Dark/Light Mode" aria-label="Toggle Theme Mode" type="button">
+          <svg class="sun-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 8a4 4 0 100 8 4 4 0 000-8z"/></svg>
+          <svg class="moon-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg>
+        </button>
+        <button class="btn-utility" id="btn-relock" title="Relock Portfolio (Bot-Proofing)" aria-label="Relock Portfolio Screen" type="button">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Panel Area -->
+    <main class="app-main">
+      
+      <!-- ==========================================
+           2.1 TAB PANEL: RESUME & PROFILE
+           ========================================== -->
+      <section class="tab-panel active-panel" id="panel-resume" role="tabpanel" aria-labelledby="tab-resume" tabindex="0">
+        <div class="resume-grid">
+          
+          <!-- Sidebar: Profile & Tech Skills -->
+          <aside class="resume-sidebar">
+            <div class="profile-card card">
+              <div class="profile-avatar" id="profile-avatar">BM</div>
+              <h2 class="profile-name" id="profile-name">Bryce Alexander Molnar</h2>
+              <p class="profile-tagline" id="profile-tagline">Vice President, Data Management Senior & Cybersecurity Engineer</p>
+              <div class="profile-location">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="icon-small"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                <span id="profile-location-text">Wilmington, DE</span>
+              </div>
+              
+              <hr class="separator">
+              
+              <div class="profile-contacts">
+                <a href="mailto:bmolnar_csec@outlook.com" class="contact-link" id="contact-email">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="icon-small"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                  <span id="contact-email-text">bmolnar_csec@outlook.com</span>
+                </a>
+                <a href="#" target="_blank" rel="noopener" class="contact-link" id="contact-github">
+                  <svg fill="currentColor" viewBox="0 0 24 24" class="icon-small"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.137 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                  <span id="contact-github-text">github.com/brycemolnar</span>
+                </a>
+                <a href="#" target="_blank" rel="noopener" class="contact-link" id="contact-linkedin">
+                  <svg fill="currentColor" viewBox="0 0 24 24" class="icon-small"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                  <span id="contact-linkedin-text">linkedin.com/in/brycemolnar</span>
+                </a>
+                <a href="#" class="contact-link" id="contact-phone" style="display: none;">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="icon-small"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                  <span id="contact-phone-text"></span>
+                </a>
+              </div>
+              
+              <hr class="separator">
+              
+              <a href="#" class="btn btn-primary btn-full-width" id="btn-download-resume" download>
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="icon-medium"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                Download PDF Resume
+              </a>
+            </div>
+
+            <!-- Detailed Skills Block -->
+            <div class="skills-card card">
+              <h3 class="card-title">Technical Expertise</h3>
+              <div id="skills-list-container">
+                <!-- Loaded dynamically from resume.json -->
+              </div>
+            </div>
+          </aside>
+          
+          <!-- Main Content Pane: Summary, Experience, Education -->
+          <article class="resume-main">
+            <section class="card about-section">
+              <h3 class="section-title">Professional Summary</h3>
+              <p id="profile-summary-text" class="summary-paragraph">
+                <!-- Loaded dynamically from resume.json -->
+              </p>
+            </section>
+            
+            <section class="card experience-section">
+              <h3 class="section-title">Professional Experience</h3>
+              <div class="timeline" id="experience-timeline">
+                <!-- Loaded dynamically from resume.json -->
+              </div>
+            </section>
+            
+            <section class="card education-section">
+              <h3 class="section-title">Education & Credentials</h3>
+              <div class="education-list" id="education-list">
+                <!-- Loaded dynamically from resume.json -->
+              </div>
+            </section>
+          </article>
+          
+        </div>
+      </section>
+
+      <!-- ==========================================
+           2.2 TAB PANEL: PROJECTS
+           ========================================== -->
+      <section class="tab-panel" id="panel-projects" role="tabpanel" aria-labelledby="tab-projects" tabindex="0">
+        <div class="section-header-bar">
+          <div>
+            <h2 class="tab-title">Featured Creations</h2>
+            <p class="tab-subtitle">A collection of open source tools, system integrations, and experimental playground interfaces.</p>
+          </div>
+          
+          <!-- Category Filter Bar -->
+          <div class="filter-bar" id="project-filters" role="group" aria-label="Filter Projects">
+            <button class="btn btn-filter active" data-filter="all" type="button">All Projects</button>
+            <button class="btn btn-filter" data-filter="javascript" type="button">JavaScript</button>
+            <button class="btn btn-filter" data-filter="rust" type="button">Rust</button>
+            <button class="btn btn-filter" data-filter="web-audio" type="button">Audio API</button>
+            <button class="btn btn-filter" data-filter="webassembly" type="button">Wasm</button>
+          </div>
+        </div>
+
+        <!-- Project Grid -->
+        <div class="projects-grid" id="projects-grid-container">
+          <!-- Loaded dynamically from resume.json -->
+        </div>
+      </section>
+
+      <!-- ==========================================
+           2.3 TAB PANEL: BLOG POSTS
+           ========================================== -->
+      <section class="tab-panel" id="panel-blog" role="tabpanel" aria-labelledby="tab-blog" tabindex="0">
+        <div class="section-header-bar">
+          <div>
+            <h2 class="tab-title">Deep Technical Articles</h2>
+            <p class="tab-subtitle">Tutorials, opinionated guides, and architectural case studies focusing on modern web tech.</p>
+          </div>
+        </div>
+
+        <!-- Blog Posts Grid -->
+        <div class="blog-grid" id="blog-grid-container">
+          <!-- Loaded dynamically from resume.json -->
+        </div>
+      </section>
+
+      <!-- ==========================================
+           2.4 TAB PANEL: HOBBIES
+           ========================================== -->
+      <section class="tab-panel" id="panel-hobbies" role="tabpanel" aria-labelledby="tab-hobbies" tabindex="0">
+        <div class="section-header-bar">
+          <div>
+            <h2 class="tab-title">Life Outside the Terminal</h2>
+            <p class="tab-subtitle">Things that occupy my headspace, keep my synapses firing, and help recharge batteries.</p>
+          </div>
+        </div>
+
+        <!-- Hobbies Grid -->
+        <div class="hobbies-grid" id="hobbies-grid-container">
+          <!-- Loaded dynamically from resume.json -->
+        </div>
+      </section>
+
+    </main>
+
+    <!-- App Global Footer -->
+    <footer class="app-footer">
+      <div class="footer-left">
+        <span>© 2026 Bryce Alexander Molnar. Built with Vanilla Web API stack.</span>
+      </div>
+      <div class="footer-right">
+        <span class="status-indicator-green">
+          <span class="pulse-dot-green"></span>
+          Mainframe Status: Handshake Verified
+        </span>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- ==========================================
+       3. MODAL BLOG READER POPUP
+       ========================================== -->
+  <div id="blog-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-blog-title">
+    <div class="modal-container">
+      <header class="modal-header">
+        <div class="modal-meta">
+          <span class="modal-date" id="modal-blog-date">May 18, 2026</span>
+          <span class="dot-separator">•</span>
+          <span class="modal-readtime" id="modal-blog-readtime">5 min read</span>
+        </div>
+        <button class="btn-close-modal" id="btn-close-blog-modal" aria-label="Close Article Reader" type="button">
+          <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="icon-large"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </header>
+      <main class="modal-body">
+        <h2 class="modal-title" id="modal-blog-title">Article Title</h2>
+        <div class="modal-markdown-content" id="modal-blog-content">
+          <!-- Rendered Markdown contents -->
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Javascript Layer -->
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "antigravity-personal-portfolio",
+  "version": "1.0.0",
+  "description": "Premium personal portfolio template with interactive bot-proofing lockscreen gateway.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "template",
+    "static-site",
+    "github-pages",
+    "vanilla-js",
+    "css-variables",
+    "lockscreen",
+    "terminal"
+  ],
+  "author": "Bryce Alexander Molnar",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.2.11"
+  }
+}

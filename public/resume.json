@@ -1,0 +1,191 @@
+{
+  "profile": {
+    "name": "Bryce Alexander Molnar",
+    "title": "Vice President, Data Management Senior & Cybersecurity Engineer",
+    "location": "Wilmington, DE (Open to Remote / Relocation)",
+    "summary": "A dedicated and results-driven manager with experience in design, development, implementation, security, and support of complex systems. Proven expertise in identifying and resolving vulnerabilities, reducing risk, and fulfilling key strategic objectives. Seeking a challenging position to contribute technical skills and strategic insight to achieve organizational goals and milestones, while improving financial and systemic sustainability.",
+    "email": "bmolnar_csec@outlook.com",
+    "phone": "(302) 569-5050",
+    "github": "github.com/brycemolnar",
+    "linkedin": "linkedin.com/in/brycemolnar",
+    "pdfUrl": "CSECResume0526.docx",
+    "avatar": "<svg fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" style=\"width:42px;height:42px;color:var(--color-accent);\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z\"/></svg>"
+  },
+  "skills": [
+    {
+      "category": "Data Management & Governance",
+      "items": [
+        "Data Security Posture Management (DSPM)",
+        "Data Access Strategies",
+        "Enterprise Data Platforms",
+        "Databricks",
+        "SQL Database Normalization",
+        "Identity Migration (LDAP to Azure AD)",
+        "Risk Identification & Remediation"
+      ]
+    },
+    {
+      "category": "Cybersecurity & Infrastructure",
+      "items": [
+        "Threat Modeling",
+        "Zero Trust Network Architecture (ZTNA)",
+        "Private Key Infrastructure (PKI)",
+        "Secure System Development Lifecycle (Secure SDLC)",
+        "Purdue Model (OT/IT)",
+        "Firewall Rule Orchestration",
+        "CMMC & Compliance Audits",
+        "Incident Response / Malware Analysis"
+      ]
+    },
+    {
+      "category": "Enterprise Tools & Stacks",
+      "items": [
+        "Databricks for Data Science",
+        "Azure Active Directory",
+        "Microsoft Security Center",
+        "Python",
+        "SQL",
+        "HTML5 / CSS3 / JavaScript",
+        "Git & CI/CD Pipelines"
+      ]
+    },
+    {
+      "category": "Certifications & Credentials",
+      "items": [
+        "CISSP (Certified Information Systems Security Professional)",
+        "DCAM Certified (Data Management Capability Assessment Model)",
+        "CompTIA Security+",
+        "Microsoft AZ-900 (Azure Fundamentals)",
+        "Databricks for Data Science",
+        "Microsoft SC-400 Trained",
+        "Microsoft SC-900 Trained"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Vice President, Data Management Senior",
+      "company": "M&T Bank",
+      "period": "May 2024 - Present",
+      "description": [
+        "Leading pilot and selection of Data Security Posture Management tool balancing the interests of over 30 stakeholders across five technology verticals. Serving as the project manager and point of contact.",
+        "Implementing three-phase Data Access Strategy for Enterprise Data and AI Department Platforms.",
+        "Owning three Enterprise Data Platforms and several critical data tools, managing access, risk and implementation.",
+        "Collaborating across technology risk and business verticals to identify and remediate risks while minimizing impact to profit centers.",
+        "Securing access to more than three petabytes of sensitive customer, company, and financial data handling over 200 access requests per week.",
+        "Driving organizational adoption and integration of AI for data science, visualization, and management."
+      ]
+    },
+    {
+      "role": "Product Cybersecurity Engineer",
+      "company": "Moog Inc.",
+      "period": "Dec 2021 - Feb 2024",
+      "description": [
+        "Lead engineering team directly impacting cybersecurity architecture with a customer on an 11-billion-dollar aerospace project. Served as a point of contact during Cybersecurity Compliance Audits.",
+        "Designed cybersecurity architectures and implementation plan for next generation Operational Technologies installed across the company’s international presence with Zero Trust Network Architecture in mind.",
+        "Built and instituted a Secure System Development Lifecycle for new and existing development efforts.",
+        "Trained engineers, interns, managers, and executives on the topics of threat modeling, the Purdue model, private key infrastructure, and secure development standards.",
+        "Managed, requested, processed, and implemented changes to on-premises, cloud, and local firewalls. Handled over 40 changes per week, and reduced delivery time by an average of 14 days."
+      ]
+    },
+    {
+      "role": "Security Operations Engineer",
+      "company": "Moog Inc.",
+      "period": "Jan 2021 - Nov 2021",
+      "description": [
+        "Served on incident response team, intercepted phishing, malware, and ransomware attacks while on call.",
+        "Reverse engineered and responded to social engineering and malware attacks.",
+        "Implemented rule sets, controls, and configurations for devices to function with secure standards."
+      ]
+    },
+    {
+      "role": "Software Development & Cybersecurity Intern",
+      "company": "Moog Inc.",
+      "period": "Sep 2020 - Dec 2020",
+      "description": [
+        "Developed a solution for migrating identity from LDAP to Azure Active Directory as a part of CMMC audit preparation.",
+        "Provided software development expertise in consultations regarding risk management for internal products.",
+        "Established and managed the collegiate cybersecurity internship program.",
+        "Developed full stack IoT monitoring application for the company’s smart factory initiative.",
+        "Modernized Repair Forms application, including normalizing and managing SQL database.",
+        "Participated as a mentor in the University of Buffalo Winter Hackathon."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer and Information Sciences",
+      "school": "Niagara University",
+      "period": "2016 - 2020",
+      "details": "Cum Laude, Dean's List Graduate. Minor in General Business. President and Founder of Niagara University eSports."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Enterprise Data Access Governor (DSPM)",
+      "description": "A simulated security and policy visualization panel designed to demonstrate Data Security Posture Management. Charts access requests, models risk scores, and manages permissions compliance workflows over massive simulated petabyte-scale cloud storage assets.",
+      "tags": ["Data Governance", "SQL", "Compliance Dashboard", "Azure Active Directory"],
+      "liveLink": "#",
+      "githubLink": "https://github.com/brycemolnar/dspm-governor"
+    },
+    {
+      "title": "Zero-Trust OT Network Architect",
+      "description": "An interactive, web-based visual diagram engine mapping industrial components across the Purdue Model framework. Allows system administrators to model firewalls, define secure boundaries (zones), and push configurations ensuring air-gapped system isolation.",
+      "tags": ["Operational Technology", "Zero Trust Architecture", "Purdue Model", "Systems Engineering"],
+      "liveLink": "#",
+      "githubLink": "https://github.com/brycemolnar/zero-trust-ot"
+    },
+    {
+      "title": "Collegiate Cyber Arena Platform",
+      "description": "A robust tournament staging portal featuring dynamic registration databases, stats tracking, and responsive eSports score displays. Built to celebrate eSports integration in collegiate environments, incorporating strict security protocols for user authentication.",
+      "tags": ["eSports Platform", "JavaScript", "User Authentication", "Web Security"],
+      "liveLink": "#",
+      "githubLink": "https://github.com/brycemolnar/collegiate-esports"
+    },
+    {
+      "title": "Industrial IoT Telemetry Dashboard",
+      "description": "A real-time smart factory monitoring platform designed to ingest hardware telemetry (temperatures, vibrations, power cycles). Visualizes metrics using dynamic charts and triggers automatic visual alarms when unauthorized hardware attachments are detected.",
+      "tags": ["Industrial IoT (IIoT)", "Realtime Telemetry", "WebSockets", "Data Science"],
+      "liveLink": "#",
+      "githubLink": "https://github.com/brycemolnar/iot-telemetry"
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Securing the Core: Why Data Security Posture Management (DSPM) is the Next Frontier in Bank Data Governance",
+      "date": "May 20, 2026",
+      "readTime": "5 min read",
+      "summary": "Explore how managing petabytes of customer, financial, and company data requires transitioning from legacy perimeter firewall defense to content-aware data security, balancing stakeholder interests across multiple technical verticals.",
+      "content": "### The Petabyte-Scale Challenge\n\nIn modern banking, data is no longer confined to isolated local databases. Between cloud data lakes, local analytics warehouses, and specialized AI models, financial institutions routinely manage petabytes of highly sensitive consumer information. \n\nWith this volume of data comes a massive challenge: **How do we maintain rapid developer velocity and advanced AI integrations while ensuring absolute, airtight security?**\n\nTraditional perimeter-based firewall defenses are no longer sufficient. If an attacker breaches the perimeter or an employee makes an accidental configuration error, raw access to sensitive data must still be blocked. This is where **Data Security Posture Management (DSPM)** becomes critical.\n\n### What is DSPM?\n\nUnlike traditional security systems that focus on *where the network borders are*, DSPM focuses on **the data itself**. It operates on three key pillars:\n1. Discovery & Classification: Automatically crawling cloud environments to locate all data assets—including \"shadow data\" forgotten by developers.\n2. Access & Flow Tracking: Mapping exactly who (which users, services, or APIs) has access to which fields and where that data is flowing.\n3. Continuous Risk Assessment: Analyzing data repositories for vulnerabilities like unencrypted records, permissive access controls, or regulatory compliance failures (such as PCI-DSS or GDPR).\n\n### Balancing Stakeholder Interests\n\nImplementing a robust DSPM strategy is not just a technical challenge—it is an organizational project. A successful pilot must balance the interests of over 30 stakeholders across multiple key verticals:\n* Security & Compliance Teams: Demand strict lock-downs, zero-trust policies, and detailed audit trails.\n* Data Scientists & Developers: Demand quick, low-friction access to datasets to train models and ship analytics dashboards.\n* Business Unit Leaders: Want to ensure security measures do not slow down customer transaction speeds or impact profit centers.\n\nBy adopting a **three-phase Data Access Strategy**, banking institutions can safely secure their data platforms:\n1. Audit & Visibility: Gain absolute transparency into data schemas, identifying where sensitive records reside.\n2. Dynamic Least-Privilege Role Mapping: Implement automated, context-aware role checks where developers gain access only to anonymized/tokenized subsets of data on a temporary basis.\n3. Automated Remediation: Deploy scripts that automatically flag and encrypt exposed assets in real-time.\n\nDSPM represents a massive shift from passive compliance checking to proactive, real-time data protection—an absolute necessity for the future of fintech governance."
+    },
+    {
+      "title": "Threat Modeling the Physical World: Applying Secure SDLC and the Purdue Model to Aerospace & Operational Technologies",
+      "date": "April 15, 2026",
+      "readTime": "7 min read",
+      "summary": "Connecting cybersecurity to kinetic physical environments. Learn how implementing Secure System Development Lifecycles and Zero Trust principles across the Purdue Model framework protects international factory floors.",
+      "content": "### Cyber Threats in the Physical Space\n\nWhen we discuss threat modeling or software security, we usually think about web applications, cloud hosting databases, or phishing attacks. However, a major and increasingly critical subset of cybersecurity involves **Operational Technology (OT)**—the hardware, controllers, and sensors that drive smart factories, municipal water utilities, and aerospace platforms.\n\nIn the physical world, a software bug or security breach doesn't just mean a leaked database; it can mean a physical machine overheating, an assembly line shutting down, or a kinetic system failure.\n\nTo protect these complex hybrid environments, systems engineers must bridge the gap between traditional IT security standards and physical engineering requirements.\n\n### Demystifying the Purdue Model\n\nTo secure OT environments, engineers rely on the **Purdue Enterprise Reference Architecture (Purdue Model)**. It defines six distinct logical layers to segment network controls:\n\n* Level 5: Enterprise Network: Core business IT infrastructures, email servers, and corporate offices.\n* Level 4: Business Logistics: IT-driven scheduling, resource planning, and inventory systems.\n* Level 3.5: Industrial DMZ (IDMZ): The critical separation barrier between corporate IT and factory OT, hosting firewalls and proxy servers.\n* Level 3: Operations Systems: Factory-wide control hubs, SCADA servers, and database historians.\n* Level 2: Control Systems: Human-Machine Interfaces (HMIs) and local control rooms monitoring active machinery.\n* Level 1: Local Control Devices: Programmable Logic Controllers (PLCs) directly executing commands on hardware.\n* Level 0: Physical Process: The actual physical valves, motors, sensors, and actuators.\n\nBy enforcing strict firewall rules at the **IDMZ (Level 3.5)** and ensuring no direct network links bypass this barrier, we implement structural network isolation that blocks attackers from hopping from a standard corporate email computer directly to a factory PLC.\n\n### Establishing a Secure System Development Lifecycle (Secure SDLC)\n\nSecuring OT requires integrating cybersecurity controls at the *very beginning* of the design phase. A robust **Secure SDLC** includes:\n\n1. Threat Modeling: Analyzing system architectures early to identify potential attack vectors before a single line of code is compiled.\n2. Vulnerability Remediation: Rigorous scanning of firmware libraries and dependencies.\n3. PKI & Encryption: Enforcing cryptographic signatures on firmware updates, ensuring that PLCs only execute verified commands.\n4. Zero Trust OT Network Designs: Operating under the assumption that the local network could already be compromised, forcing every component to authenticate and authorize before each transmission.\n\nBy standardizing these training protocols across development, executive management, and manufacturing operations, international tech organizations can protect critical assets and ensure the safe, uninterrupted operation of next-generation physical technologies."
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "eSports Leadership & Assembly",
+      "icon": "<svg fill=\"currentColor\" viewBox=\"0 0 24 24\" class=\"icon-large\" style=\"color:var(--color-accent);\"><path d=\"M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z\"/></svg>",
+      "description": "President and Founder of Niagara University eSports. Passionate about assembling competitive teams, hosting local gaming tournaments, and fostering inclusive, tech-driven student communities."
+    },
+    {
+      "name": "Smart Home & IoT Labs",
+      "icon": "<svg fill=\"currentColor\" viewBox=\"0 0 24 24\" class=\"icon-large\" style=\"color:var(--color-accent);\"><path d=\"M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z\"/></svg>",
+      "description": "Building custom home networks, configuring localized firewall rules, and programming automated smart sensors. Home lab testing is where security research meets household conveniences."
+    },
+    {
+      "name": "Collegiate Mentorship & Hackathons",
+      "icon": "<svg fill=\"currentColor\" viewBox=\"0 0 24 24\" class=\"icon-large\" style=\"color:var(--color-accent);\"><path d=\"M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z\"/></svg>",
+      "description": "Acting as an engineering mentor for university hackathons, training cybersecurity interns, and helping next-generation software developers build strong, secure career baselines."
+    },
+    {
+      "name": "Strategic Gaming & Simulation",
+      "icon": "<svg fill=\"currentColor\" viewBox=\"0 0 24 24\" class=\"icon-large\" style=\"color:var(--color-accent);\"><path d=\"M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14H7v-5h5v5zm5-6h-5V6h5v5z\"/></svg>",
+      "description": "Analyzing system dynamics and resource management strategies through immersive simulation and table-top strategy games. Securing systems is just another form of puzzle-solving!"
+    }
+  ]
+}
