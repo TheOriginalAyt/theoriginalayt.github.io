@@ -7,7 +7,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
   let RESUME_DATA;
   try {
-    const response = await fetch('./resume.json');
+    const response = await fetch('../dist/resume.json');
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
